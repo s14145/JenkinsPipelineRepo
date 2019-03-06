@@ -13,6 +13,9 @@ pipeline{
               input('Do you want to proceed?')
                   }
              }
+    }
+}
+      /*
       stage('Three'){
              when{
                     not{
@@ -23,6 +26,7 @@ pipeline{
                   echo "Hello"
              }
                   }
+                  
       stage('Four'){
         parallel{
           stage('Unit Test'){
@@ -44,4 +48,6 @@ pipeline{
                   }
       }
     }
+    */
+      
 
